@@ -12,7 +12,7 @@ function App() {
   });
 
   const [answer, setanswer] = useState('No value has been inputted');
-
+  
   //Global declaration
     var value = inputvalue.value;
     var answersyntax = null;
@@ -35,9 +35,9 @@ function App() {
   function onSubmitHandler(newInput) {
     if (newInput % 2 === 1) {
       console.log("Odd number");
-       answersyntax = newInput + " is an odd number";
+        answersyntax = newInput + " is an odd number";
     } else {
-         answersyntax = newInput + " is an even number";
+        answersyntax = newInput + " is an even number";
         console.log("Even number");
     }
     CheckPrimeNumber(newInput);
@@ -78,19 +78,12 @@ function App() {
     }
   }
 
-
-
   //JSX functions
   return (
     <div className="App">
-      <h3>
-          Input Type
-      </h3>
-      <UserInput
-        value={inputvalue.value}
-        change={onChangeHandler}
-      />
-      <InputType answer={answer}/>
+      <h3>Input Type</h3>
+      <UserInput value={inputvalue.value} change={onChangeHandler} />
+      <InputType answer={answer} />
     </div>
   );
 }
