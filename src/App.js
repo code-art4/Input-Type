@@ -68,7 +68,6 @@ function App() {
         console.log(`${number} is a prime number`);
         
       } else {
-          answersyntax += " but not a prime number";
         console.log(`${number} is a not prime number`);
       }
     }
