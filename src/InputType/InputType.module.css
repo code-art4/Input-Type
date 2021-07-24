@@ -1,0 +1,17 @@
+.InputType {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: .5rem;
+    justify-content: space-between;
+}
+
+.InputType .Type {
+    background: linear-gradient(90deg, hsl(120, 100%, 25%), hsl(120, 91%, 14%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 1rem;
+}

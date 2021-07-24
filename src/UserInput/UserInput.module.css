@@ -1,0 +1,8 @@
+.UserInput,
+.UserInput input {
+    width: 100%;
+}
+
+.UserInput input {
+    padding: .4rem;
+}
