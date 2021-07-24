@@ -4,7 +4,7 @@ import classes from './primeNumber.module.css';
 function primeNumber(props) {
     let answer = "";
     if (props.prime) {
-        answer = "Prime Number";
+        answer = "Prime number";
     }else{
         answer = "";
     }
